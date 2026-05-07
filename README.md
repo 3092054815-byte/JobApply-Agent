@@ -1,5 +1,8 @@
 # JobApply Agent
 
+[![CI](https://github.com/3092054815-byte/JobApply-Agent/actions/workflows/ci.yml/badge.svg)](https://github.com/3092054815-byte/JobApply-Agent/actions/workflows/ci.yml)
+[![Deploy GitHub Pages](https://github.com/3092054815-byte/JobApply-Agent/actions/workflows/pages.yml/badge.svg)](https://github.com/3092054815-byte/JobApply-Agent/actions/workflows/pages.yml)
+
 JobApply Agent is a GitHub-showcase MVP for AI-assisted job applications. It turns a resume and target job description into a structured application package: match report, resume suggestions, cover letter, interview preparation, and follow-up checklist.
 
 ## What It Solves
@@ -7,6 +10,8 @@ JobApply Agent is a GitHub-showcase MVP for AI-assisted job applications. It tur
 Job seekers often need to read long job descriptions, identify relevant skills, adapt resume bullets, write cover letters, and prepare for interviews. JobApply Agent makes that workflow explicit and repeatable.
 
 ## Demo
+
+Live demo: [https://3092054815-byte.github.io/JobApply-Agent/](https://3092054815-byte.github.io/JobApply-Agent/)
 
 Run the project locally, click `Load sample`, then click `Generate package` to view the full workflow.
 
@@ -70,6 +75,10 @@ The MVP keeps API keys on the local server side. The browser does not store prov
 - `examples/resume_sample.md`
 - `examples/jd_sample.md`
 - `examples/output_sample.json`
+
+## Application Description
+
+For a Chinese application-form-ready project summary, see [`docs/application-description.md`](docs/application-description.md).
 
 ## Project Structure
 
