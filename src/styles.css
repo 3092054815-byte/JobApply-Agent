@@ -1,0 +1,51 @@
+:root {
+  color: #172026;
+  background: #f7f3ea;
+  font-family:
+    "Segoe UI", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+button,
+textarea,
+input {
+  font: inherit;
+}
+
+.app-shell {
+  min-height: 100vh;
+  padding: 32px;
+}
+
+.hero {
+  max-width: 920px;
+}
+
+.eyebrow {
+  color: #476f65;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin: 0 0 8px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: clamp(2rem, 4vw, 4.5rem);
+  letter-spacing: 0;
+  line-height: 1;
+  margin: 0 0 16px;
+}
+
+p {
+  line-height: 1.6;
+}
