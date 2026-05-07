@@ -3,6 +3,7 @@ import { parseJobDescription } from "../agents/jdParserAgent";
 import { createMatchReport } from "../agents/matchingAgent";
 import { createCoverLetter, createResumeSuggestions } from "../agents/materialWriterAgent";
 import { analyzeResume } from "../agents/resumeAnalyzerAgent";
+import { requestLlmApplicationPackage } from "./apiClient";
 import type { ApplicationPackage, JobApplicationRequest } from "./schemas";
 
 export async function generateApplicationPackage(
@@ -14,6 +15,14 @@ export async function generateApplicationPackage(
 
   if (!request.jobDescriptionText.trim()) {
     throw new Error("Job description text is required.");
+  }
+
+  if (request.mode === "llm") {
+    const llmResult = await requestLlmApplicationPackage(request);
+
+    if (llmResult) {
+      return llmResult;
+    }
   }
 
   const jd = parseJobDescription(request.jobDescriptionText);
