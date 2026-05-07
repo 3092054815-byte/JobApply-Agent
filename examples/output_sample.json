@@ -1,0 +1,61 @@
+{
+  "modeUsed": "mock",
+  "matchReport": {
+    "score": 78,
+    "summary": "The candidate has strong React and frontend project evidence, with good alignment on dashboard UI, responsiveness, REST APIs, and performance. The main gaps are TypeScript and testing signals.",
+    "coveredSkills": ["React", "JavaScript", "HTML", "CSS", "REST APIs", "Performance"],
+    "missingSkills": ["TypeScript", "Testing", "Next.js"],
+    "strongEvidence": [
+      "Built a responsive React dashboard for personal projects.",
+      "Created reusable components for cards, filters, and project detail views.",
+      "Improved page performance by reducing unnecessary component re-renders."
+    ],
+    "weakEvidence": [
+      "TypeScript is required by the JD but not mentioned in the resume.",
+      "Testing appears in nice-to-have requirements but is not represented in the resume."
+    ],
+    "risks": [
+      "The resume should not imply TypeScript experience unless the candidate has used it.",
+      "The candidate should prepare to discuss frontend architecture and state management clearly."
+    ]
+  },
+  "resumeSuggestions": [
+    {
+      "section": "Portfolio Dashboard",
+      "before": "Built a responsive React dashboard for displaying personal projects and writing.",
+      "after": "Built a responsive React dashboard with reusable components, filterable project views, and performance-conscious rendering.",
+      "reason": "This version better matches the JD's focus on dashboards, component architecture, responsiveness, and performance."
+    },
+    {
+      "section": "Skills",
+      "after": "Group skills into Frontend, Programming, Tools, and APIs so the React and REST API match is easier to scan.",
+      "reason": "A structured skills section helps reviewers see JD keyword coverage quickly."
+    }
+  ],
+  "coverLetter": "Dear Hiring Team,\n\nI am excited to apply for the Frontend Engineer Intern role. My React projects, including a responsive portfolio dashboard and a campus study planner, have given me hands-on experience building reusable components, mobile-friendly interfaces, and user-focused product flows. I am especially interested in your focus on dashboards, workflow tools, accessibility, and performance.\n\nIn my portfolio dashboard project, I created reusable components for cards, filters, and detail views while improving rendering performance. I would be excited to bring this same product-minded approach to your team while continuing to grow in TypeScript and testing.\n\nThank you for your consideration.\nAlex Chen",
+  "interviewQuestions": [
+    {
+      "type": "role",
+      "question": "How would you structure reusable React components for a dashboard with filters and detail views?",
+      "answerHint": "Discuss component boundaries, props, state location, and how the UI should stay easy to scan."
+    },
+    {
+      "type": "resume",
+      "question": "What caused unnecessary re-renders in your portfolio dashboard, and how did you reduce them?",
+      "answerHint": "Explain how you identified the issue, what changed, and what improved."
+    },
+    {
+      "type": "behavioral",
+      "question": "Tell me about a time you improved a project based on user experience concerns.",
+      "answerHint": "Use a STAR answer with the campus study planner or dashboard project."
+    }
+  ],
+  "followUpChecklist": [
+    "Revise the Portfolio Dashboard bullet to mention reusable components and performance.",
+    "Add TypeScript only if the candidate has real TypeScript experience.",
+    "Prepare one story about responsive design decisions.",
+    "Prepare one story about performance improvement.",
+    "Review basic React state management tradeoffs before the interview."
+  ],
+  "notices": ["Mock mode is active. Configure the local server for real LLM output."]
+}
