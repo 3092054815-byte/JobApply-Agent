@@ -5,16 +5,13 @@
 
 JobApply Agent is a focused web demo for job application preparation. It turns a resume and target job description into a structured application package: match report, resume suggestions, cover letter, interview preparation, and follow-up checklist.
 
-<details>
-<summary>中文简介</summary>
+## 中文简介
 
 JobApply Agent 是一个面向求职申请场景的 Web Demo。用户输入简历和目标岗位 JD 后，系统会生成一份结构化申请包，包括岗位匹配报告、简历优化建议、定制求职信、面试准备问题和投递跟进清单。
 
 项目将求职申请流程拆成多个职责清晰的 Agent：JD 解析、简历分析、匹配推理、申请材料生成和面试准备。默认 mock 模式无需配置 API key，适合直接体验完整流程；可选本地 API 边界用于后续接入真实 LLM，并避免在浏览器前端暴露密钥。
 
 更多中文项目说明见 [`docs/application-description.md`](docs/application-description.md)。
-
-</details>
 
 ## What It Solves
 
