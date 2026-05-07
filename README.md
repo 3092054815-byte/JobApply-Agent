@@ -10,6 +10,8 @@ Job seekers often need to read long job descriptions, identify relevant skills, 
 
 Run the project locally, click `Load sample`, then click `Generate package` to view the full workflow.
 
+![JobApply Agent demo](docs/demo-screenshot.png)
+
 ## Agent Workflow
 
 ```mermaid
